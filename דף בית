@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>אפליקציית לוח טהרה - דף הבית</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            border-bottom: 4px solid #3498db;
+        }
+        main {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 2rem auto;
+            background-color: white;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            border-radius: 8px;
+        }
+        h1 { margin-top: 0; }
+        h2 { color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 0.5rem; }
+        .features {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+        .feature-item {
+            background: #fdfdfd;
+            border: 1px solid #e1e1e1;
+            padding: 1rem;
+            border-radius: 6px;
+            border-right: 4px solid #3498db;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 2rem;
+            background-color: #2c3e50;
+            color: #ecf0f1;
+        }
+        footer a { color: #3498db; text-decoration: none; margin: 0 10px; }
+        footer a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>אפליקציית לוח טהרה</h1>
+    <p>ניהול, מעקב וחישוב עונות חשש לפי פסיקות הגר"מ גרוס שליט"א</p>
+</header>
+
+<main>
+    <h2>ברוכות הבאות</h2>
+    <p>אפליקציית לוח טהרה נועדה להקל על המעקב והחישוב של עונות החשש (וסת החודש, וסת ההפלגה, עונה בינונית ווסתות קבועים), בהתאם לכללי ההלכה המבוארים בספרים "דעת טהרה" ו"שיעורי טהרה".</p>
+    
+    <h2>פרטיות מעל הכל - הנתונים שלך, בשליטתך בלבד</h2>
+    <p>אנו מבינים שמידע זה הוא רגיש ואישי מאין כמוהו. לכן, האפליקציה נבנתה בארכיטקטורה ייחודית ששומרת על <strong>100% פרטיות</strong>:</p>
+    
+    <div class="features">
+        <div class="feature-item">
+            <strong>ללא שרתים מרכזיים:</strong> הנתונים שלך לעולם אינם נשלחים לשרתים שלנו. למעשה, אין לנו כלל מסד נתונים מרכזי השומר מידע על משתמשות.
+        </div>
+        <div class="feature-item">
+            <strong>גיבוי אישי לגוגל שיטס (Google Sheets):</strong> כדי שהמידע שלך לא יאבד אם תחליפי מכשיר, המערכת מאפשרת לך להתחבר עם חשבון הגוגל האישי שלך. הגיבוי נשמר ישירות לקובץ פרטי ב-Google Drive שלך.
+        </div>
+        <div class="feature-item">
+            <strong>אפס גישה למפתחים:</strong> למפתחי האפליקציה אין שום גישה, יכולת צפייה, או אפשרות עריכה של הנתונים שלך. המידע זורם ישירות מהמכשיר שלך לכונן הגוגל האישי שלך בלבד.
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2026 אפליקציית לוח טהרה.</p>
+    <p>
+        <a href="privacy.html">מדיניות פרטיות</a> | 
+        <a href="terms.html">תנאי שירות</a>
+    </p>
+</footer>
+
+</body>
+</html>
